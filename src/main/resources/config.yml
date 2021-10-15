@@ -1,0 +1,34 @@
+global:
+  delay: 4
+  cooldown: 15
+
+rtp:
+  delay: 4
+  cooldown: 30
+  radius: 20000
+
+tpa:
+  delay: 4
+  cooldown: 15
+  lifetime: 15
+
+home:
+  delay: 4
+  cooldown: 10
+
+warp:
+  delay: 4
+  cooldown: 10
+
+auth:
+  spawn on join: true
+  restore location on auth: true
+
+protection:
+  fall:
+    radius: 10
+    duration: 10
+  suffocation:
+    radius: 1
+  player:
+    duration: 5

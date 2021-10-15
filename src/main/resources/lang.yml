@@ -1,0 +1,86 @@
+request-src: "&6[Lava &oTeleport&r&6] &eЗапрос на телепортацию отправлен игроку &b[dest]&e"
+request-dest: "&7&eИгрок &b[src] &eзапрашивает разрешение на &bтелепортацию к вам&e"
+
+standby: "&6[Lava &oTeleport&r&6] &aТелепортация будет произведена через &b[delay] с&a, оставайтесь на месте"
+accept-dest: "&6[Lava &oTeleport&r&6] &aВы приняли запрос на телепортацию от игрока &b[src]"
+
+warn-pvp: "&c[!] У этого игрока включен PvP режим"
+
+cancel-another-src: "&6[Lava &oTeleport&r&6] &eПредыдущий запрос на телепортацию отменен"
+cancel-expired-src: "&6[Lava &oTeleport&r&6] &eИгрок &b[dest]&e не ответил на ваш запрос телепортации"
+cancel-expired-dest: "&6[Lava &oTeleport&r&6] &7Запрос на телепортацию от игрока &3[src]&7 отклонен"
+cancel-movement-src: "&6[Lava &oTeleport&r&6] &4Вы должны быть неподвижны, телепортация отменена"
+cancel-damage-src: "&6[Lava &oTeleport&r&6] &4Телепортация отменена из-за получения вам урона"
+cancel-cannot-override-src: "&6[Lava &oTeleport&r&6] &4У вас уже есть активный запрос телепортации"
+
+cancel-src-leave-dest: "&6[Lava &oTeleport&r&6] &eИгрок &b[src] &eпокинул сервер, запрос на телепортацию отменен"
+
+cancel-dest-leave-src: "&6[Lava &oTeleport&r&6] &eИгрок &b[dest] &eпокинул сервер, телепортация отменена"
+cancel-deny-src: "&6[Lava &oTeleport&r&6] &eИгрок &b[dest] &cотклонил &eваш запрос на телепортацию"
+cancel-deny-dest: "&6[Lava &oTeleport&r&6] &eВы &cотклонили &eзапрос на телепортацию от игрока &b[src]&e"
+
+cancel-src-src: "&6[Lava &oTeleport&r&6] &eВы отменили запрос на телепортацию к игроку &b[dest]&e"
+cancel-src-dest: "&6[Lava &oTeleport&r&6] &eИгрок &b[src]&e отменил запрос на телепортацию к вам"
+
+error-no-request: "&6[Lava &oTeleport&r&6] &cУ вас нет активных запросов на телепортацию"
+error-request-yourself: "&6[Lava &oTeleport&r&6] &cНельзя отправить запрос на телепортацию самому себе"
+error-request-exists: "&6[Lava &oTeleport&r&6] &cУ вас уже есть активный запрос на телепортацию к этому игроку"
+error-dest-ignores-you: "&6[Lava &oTeleport&r&6] &cЭтот игрок запретил получение запросов на телепортацию от вас"
+
+cooldown: "&6[Lava &oTeleport&r&6] &cСледующая телепортация возможна\nчерез &b[cooldown] с"
+no-permission: "&6[Lava &oTeleport&r&6] &cВы не можете отправить запрос на телепортацию"
+
+damage-protected: "&6[Lava &oTeleport&r&6] &cВы не можете получать и наносить урон сразу после телепортации"
+target-protected: "&6[Lava &oTeleport&r&6] &cВы не можете наносить урон игрокам, которые только что телепортировались"
+
+button-accept: "&a[принять]"
+button-deny: "&c[отклонить]"
+button-cancel: "&b[отменить запрос]"
+
+line: "&e———————————————————————————————————"
+
+no-player-data: "&6[Lava &oTeleport&r&6] &cПроизошла ошибка при загрузке ваших данных. Перезайдите на сервер"
+
+player not found: "&6[Lava &oTeleport&r&6] &cИгрок не найден"
+
+home:incorrect name: "&6[Lava &oTeleport&r&6] &cВ названии можно использовать только латинские буквы, цифры, дефис и нижнее подчеркивание"
+home:position not found: "&6[Lava &oTeleport&r&6] &cПозиция &f[name] &cне сохранена"
+home:limit exceeded: "&6[Lava &oTeleport&r&6] &cВы можете сохранить не более &f[count] &cпозиций"
+home:position already saved: "&6[Lava &oTeleport&r&6] &cПозиция с названием &f[name] &cуже сохранена. Удалите ее командой &f/delhome &cдля повторного сохранения"
+home:saved: "&6[Lava &oTeleport&r&6] &aПозиция &f[name] &aсохранена ([x], [y], [z])"
+home:teleported: "&6[Lava &oTeleport&r&6] &aТелепортация в позицию &f[name]"
+home:deleted: "&6[Lava &oTeleport&r&6] &eПозиция &f[name] &eудалена"
+home:standby: "&6[Lava &oTeleport&r&6] &aТелепортация в позицию &f[name], &aоставайтесь на месте в течение &f[delay] с"
+position unsafe: "&6[Lava &oTeleport&r&6] &eВНИМАНИЕ: позиция телепортации заблокирована блоками или небезопасна. Вы телепортированы в место поблизости. Если это точка вашего дома, удалите ее и создайте в безопасном месте"
+home:no access: "&6[Lava &oTeleport&r&6] &cВ этой точке находится приват, участником которого вы не являетесь и в котором отключена настройка HOME."
+
+home:could not find safe position: "&6[Lava &oTeleport&r&6] &cПозиция небезопасна для телепорта и поблизости нет подходящего места. Телепортация отменена"
+
+home:saved positions: "&6[Lava &oTeleport&r&6] &eСохраненные позиции ([count] / [max])"
+home:saved positions admin: "&6[Lava &oTeleport&r&6] &eСписок сохраненных позиций игрока &b[name] &e([count] / [max])"
+home:no saved positions: "&7нет сохраненных позиций"
+
+coordinates: "&eКоординаты:"
+world: "&eМир:"
+
+click to teleport: "&bнажмите для телепортации"
+
+rtp teleported: "&6[Lava &oTeleport&r&6] &aВы были телепортированы\nна координаты &f([x], [y], [z])"
+rtp failed: "&6[Lava &oTeleport&r&6] &cТелепортация не удалась, попробуйте еще раз"
+
+player teleported to spawn: "&6[Lava &oTeleport&r&6] &aИгрок &b[player] &aтелепортирован на спавн"
+
+you can not use rtp here: "&6[Lava &oTeleport&r&6] &c/rtp нельзя использовать в этом мире"
+
+available warps: "&6[Lava &oTeleport&r&6] &fДоступные варпы: "
+empty: "&7(пусто)"
+
+quit position: '["",{"text":"[Lava ","color":"gold"},{"text":"Teleport","italic":true,"color":"gold"},{"text":"] Позиция выхода игрока ","color":"gold"},{"text":"%s","color":"aqua"},{"text":": ","color":"gold"},{"text":"%.0f %.0f %.0f %s / %.0f %.0f %.0f","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/tppos %.0f %.0f %.0f %s"},"hoverEvent":{"action":"show_text","value":"телепортироваться"}}]'
+
+warps:
+  teleported: "&6[Lava &oTeleport&r&6] &aВы телепортированы на варп &b[name]"
+  player teleported: "&6[Lava &oTeleport&r&6] &aИгрок &b[player] &aтелепортирован на варп &b[name]"
+  warp set: "&6[Lava &oTeleport&r&6] &aВарп &b[name] &aустановлен"
+  warp deleted: "&6[Lava &oTeleport&r&6] &eВарп &b[name] &eудален"
+  warp not found: "&6[Lava &oTeleport&r&6] &cВарп &b[name] &cне существует"
+  no permissions: "&6[Lava &oTeleport&r&6] &cУ вас нет прав для использования варпа &b[name]"

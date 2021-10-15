@@ -1,0 +1,15 @@
+name: LavaTeleport
+main: win.lava.teleport.LavaTeleport
+version: ${project.version}
+author: FrameShift
+api-version: "1.16"
+depend:
+  - WorldGuard
+  - WorldEdit
+  - LavaPassive
+  - LavaCommon
+  - PlaceholderAPI
+  - Essentials
+  - LavaChat
+  - AuthMe
+  - LavaArea
